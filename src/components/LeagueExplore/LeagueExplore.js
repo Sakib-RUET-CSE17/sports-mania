@@ -27,19 +27,19 @@ const LeagueExplore = () => {
             <Banner><img className="img-fluid" src={strBanner} alt="" /></Banner>
 
             <div className="container mt-5">
-                <div class="card mb-3 bg-primary">
-                    <div class="row no-gutters">
-                        <div class="col-md-7">
-                            <div class="card-body">
-                                <h5 class="card-title">{strLeague}</h5>
+                <div className="card mb-3 bg-primary">
+                    <div className="row no-gutters">
+                        <div className="col-md-7">
+                            <div className="card-body">
+                                <h5 className="card-title">{strLeague}</h5>
                                 <br />
-                                <p class="card-text"><img src={foundedIcon} alt='...'></img> Founded: {intFormedYear}</p>
-                                <p class="card-text"><img src={countryIcon} alt='...'></img> Country: {strCountry}</p>
-                                <p class="card-text"><img src={sportsTypeIcon} alt='...'></img> Sports Type: {strSport}</p>
-                                <p class="card-text"><img src={genderIcon} alt='...'></img> Gender: {strGender}</p>
+                                <p className="card-text"><img src={foundedIcon} alt='...'></img> Founded: {intFormedYear}</p>
+                                <p className="card-text"><img src={countryIcon} alt='...'></img> Country: {strCountry}</p>
+                                <p className="card-text"><img src={sportsTypeIcon} alt='...'></img> Sports Type: {strSport}</p>
+                                <p className="card-text"><img src={genderIcon} alt='...'></img> Gender: {strGender}</p>
                             </div>
                         </div>
-                        <div class="col-md-5">
+                        <div className="col-md-5">
                             <img width="" className="img-fluid" src={logo} alt="..." />
                         </div>
 
